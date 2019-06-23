@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="url_shortener_pm",
+    name="url_shortner_pm",
     version="0.1.1",
     author=["Prinzu Choudhury","Meenal Agarwal"],
     author_email="prinzupallab@gmail.com",
