@@ -18,7 +18,15 @@ Install url_shortner_pm by running: pip Install url_shortner_pm
 
 
 **Example**
-![Snapshots of how to use the project](<screenshot.png>)
+>>> print(URL().short("https://www.udemy.com/machinelearning/"))
+enter any string you want to add before the shorten url:frsf
+frsfhoiFVYuGY
+>>> print(URL().short("https://www.udemy.com/machilearning/"))
+enter any string you want to add before the shorten url:
+hoiFVYuGY
+>>> print(URL().short("https://www.udemy.com/machilearning/"))
+enter any string you want to add before the shorten url:
+hoiFVYuGY
 
 **License**
 The project is licensed under the MIT License.
