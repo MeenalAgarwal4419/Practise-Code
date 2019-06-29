@@ -1,10 +1,10 @@
-class URL_Shortener:
+class URL:
     # suppose, we already have 10 billion urls
     id = 10000000000000000
     # store url to id in order not to have duplicated url with different id
     url2id = {}
     
-    def shorten_url(self, original_url):
+    def short(self, original_url):
         if original_url in self.url2id:
             id = self.url2id[original_url]
             shorten_url = self.encode(id)
@@ -35,9 +35,5 @@ class URL_Shortener:
         # since ret has reversed order of base70 id, reverse ret before return it
         return "".join(ret[::-1])
 
-shortener = URL_Shortener()
-print(shortener.shorten_url("https://www.udemy.com/machinelearning/"))
-print(shortener.shorten_url("https://pynative.com/python-input-function-get-user-input/"))
-print(shortener.shorten_url("veryloooooooongurl.com"))
-print(shortener.shorten_url("helllloooooooooooo.com"))
-print(shortener.shorten_url("https://coding_interview.com/questions/183658/replacing-letters-with-number"))
+
+
