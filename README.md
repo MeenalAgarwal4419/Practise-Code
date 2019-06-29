@@ -6,9 +6,9 @@ A project to shorten the URL
 This project is under constant development and maintenance.
 
 **Features**
-Easy installation
-No management required for tiny URLs.
-Easy to use.
+1.Easy installation
+2.No management required for tiny URLs.
+3.Easy to use.
 
 **Requirements**
 Python (2.7 or above)
