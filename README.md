@@ -6,9 +6,9 @@ A project to shorten the URL
 This project is under constant development and maintenance.
 
 **Features**
-<ul><li>1.Easy installation</l1>
-<li>2.No management required for tiny URLs.</li>
-<li>3.Easy to use.</li>
+<ul><li>Easy installation</l1>
+<li>No management required for tiny URLs.</li>
+<li>Easy to use.</li>
 </ul>
 
 **Requirements**
